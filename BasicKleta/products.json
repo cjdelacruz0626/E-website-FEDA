@@ -1,0 +1,132 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "2022 Trek Marlin 8 - Gloss Red",
+                "price": 56990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item1.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "2022 Trek Marlin 8 - Gloss Alpine",
+                "price": 56990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item2.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "2022 Trek Marlin 6 / Red Black Fade",
+                "price": 31990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item3.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "2022 Trek Marlin 6 / Nautical Navy",
+                "price": 31990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item4.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "2022 Trek Marlin 5 - Volt to Miami Green Fade",
+                "price": 27990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item5.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "2021 Domane AL 2 - BL/BK",
+                "price": 41990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item6.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "2021 Trek Domane AL 2 - BK",
+                "price": 41990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item7.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "2021 Trek Domane AL 3 Disc - DK/AQ",
+                "price": 63990,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/items/item8.png"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
