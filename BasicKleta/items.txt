@@ -1,0 +1,34 @@
+image:2
+name:2022 Trek Marlin 8 - Gloss Alpine
+price:₱56,990
+
+
+image:3
+name:2022 Trek Marlin 6 / Red Black Fade
+price:₱31,990
+
+
+image:4
+name:2022 Trek Marlin 6 / Nautical Navy
+price:₱31,990
+
+
+image:5
+name:2022 Trek Marlin 5 - Volt to Miami Green Fade
+price:₱27,990
+
+
+image:6
+name:2021 Domane AL 2 - BL/BK
+price:₱41,990
+
+
+image:7
+name:2021 Trek Domane AL 2 - BK
+price:₱41,990
+
+
+image:8
+name:2021 Trek Domane AL 3 Disc - DK/AQ
+price:₱63,990
+
