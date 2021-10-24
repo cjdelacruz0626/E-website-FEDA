@@ -14,11 +14,16 @@
 
 <body>
 
+    <!-- navbar -->
+
+
     <!-- header section starts  -->
     <header>
         <div id="menu-bar" class="fas fa-bars"></div>
 
-        <a href="#" class="logo">BasicLeta</a>
+        <a href="#" class="logo">
+            <h1 class="heading2">Basic<span>Leta</span></h1>
+        </a>
 
         <!-- Navbar -->
         <nav class="navbar">
@@ -27,11 +32,19 @@
             <a href="#products">Products</a>
         </nav>
 
-        <div class="icons">
+        <!-- <div class="icons">
             <a href="#" class="fas fa-shopping-cart basket"></a>
+        </div> -->
+
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">0</div>
         </div>
     </header>
     <!-- header section ends  -->
+    <!-- end navbar  -->
 
 
     <!-- carousel section starts -->
@@ -44,8 +57,7 @@
                     <h3>KONA - ROVE GRAVEL</h3>
                     <p>
                         The Rove has become the go-to bike for people all over the world that are itching to just…. go!
-                        Affordable, spec’d just right, and easy on the eyes, the Rove makes quick work of the commute,
-                        gravel trail, or the after-work fitness lap on your local hill.
+                        Affordable, spec’d just right, and easy on the eyes, the Rove makes...
                     </p>
                     <span>₱65,950</span>
                     <br>
@@ -86,8 +98,7 @@
                     <h3>MTB HARDTAIL</h3>
                     <p>
                         The Unit X has become a cult favorite among die-hard Kona fans. Maybe it’s the Cromoly frame.
-                        Maybe it’s the fact that it’s a bikepacking monster, or its SRAM SX Eagle 12-speed drivetrain,
-                        or modular dropouts which give you the ability to run it as a single speed if that’s your thing.
+                        Maybe it’s the fact that it’s a bikepacking monster, or its SRAM SX Eagle.
                     </p>
                     <span>₱76,950</span>
                     <br>
@@ -107,9 +118,8 @@
                     <span>Rubber Side Down</span>
                     <h3>MIDDLECHILD V2</h3>
                     <h3>BLACK SEMI GLOSS</h3>
-                    <p>There’s one in every family. That one that feels excluded from the bunch. If you’re down with
-                        that attitude because you like to go your own way, then we’d like to introduce you to the
-                        rowdiest member of the RSD family.the MiddleChild.</p>
+                    <p>Like to go your own way? then we’d like to introduce you to the
+                        rowdiest member of the RSD family: the MiddleChild.</p>
                     <span>₱90,000</span>
                     <br>
                     <a href="#" class="btn">Learn more</a>
@@ -216,6 +226,52 @@
     </section>
     <!-- end products -->
     <!-- products section ends -->
+
+
+    <!-- cart  -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item  -->
+                <div class="cart-item">
+                    <img src="./images/home-bike1.jpg" alt="product image">
+                    <div class="">
+                        <h4>KONA - UNIT X</h4>
+                        <h5>₱95,000</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div class="">
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="./images/home-bike1.jpg" alt="product image">
+                    <div class="">
+                        <h4>KONA - UNIT X</h4>
+                        <h5>₱95,000</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div class="">
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <!-- end cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total: ₱ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end cart -->
 
     <script src="script.js"></script>
 </body>

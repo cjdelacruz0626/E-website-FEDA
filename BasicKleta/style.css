@@ -47,6 +47,18 @@ section {
     color: var(--orange);
 }
 
+.heading2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: var(--black);
+}
+
+.heading2 span {
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -65,7 +77,7 @@ section {
     color: #fff;
 }
 
-/* carousel start  */
+/* navbar start  */
 header {
     position: fixed;
     top: 0;
@@ -96,14 +108,23 @@ header .navbar a:hover {
     color: white;
 }
 
-header .icons a {
+.nav-icon {
     font-size: 2.5rem;
-    color: var(--black);
-    margin-left: 1.5rem;
 }
 
-header .icons a:hover {
-    color: var(--orange);
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--orange);
+    padding: 0 5px;
+    border-radius: 30%;
+    color: var(--mainWhite);
 }
 
 #menu-bar {
@@ -153,7 +174,7 @@ header .icons a:hover {
 
 .home .slide-container .slide .image {
     flex: 1 1 50rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
     position: relative;
     z-index: 0;
 }
@@ -386,6 +407,142 @@ header .icons a:hover {
 
 /* products section end */
 
+/* --------------- Cart ---------------- */
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: var(--mainTransition);
+    background: rgb(240, 157, 81, 0.5);
+    z-index: 4;
+    visibility: hidden;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    z-index: 3;
+    background: rgb(231, 226, 221);
+    padding: 10rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--mainTransition);
+    transform: translateX(100%);
+}
+
+.showCart {
+    transform: translateX(0);
+}
+
+.transparentBcg {
+    visibility: visible;
+}
+
+@media screen and (min-width: 768px) {
+    .cart {
+        width: 30vw;
+        min-width: 450px;
+    }
+}
+
+.close-cart {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.close-cart:hover {
+    color: var(--orange);
+}
+
+.cart h2 {
+    text-transform: capitalize;
+    font-size: 2.7rem;
+    text-align: center;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 2rem;
+}
+
+/*---------- Cart Item -------------------- */
+.cart-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.cart-item img {
+    width: 120px;
+    height: 85px;
+}
+
+.cart-item h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+
+.cart-item h5 {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+    letter-spacing: var(--mainSpacing);
+    color: var(--orange);
+}
+
+.item-amount {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.remove-item {
+    font-size: 1.3rem;
+    color: grey;
+    cursor: pointer;
+}
+
+.fa-chevron-up,
+.fa-chevron-down {
+    font-size: 1.7rem;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+/*---------- End of Cart Item -------------------- */
+
+.cart-footer {
+    margin-top: 2rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+}
+
+.cart-footer h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.banner-btn {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--orange);
+    color: var(--black);
+    border: 1px solid var(--orange);
+    transition: var(--mainTransition);
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background: transparent;
+    color: var(--orange);
+}
+
+/* --------------- End of Cart ---------------- */
 
 /* media queries  */
 
